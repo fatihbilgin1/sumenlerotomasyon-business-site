@@ -1,2 +1,2 @@
 # sumenlerotomasyon-business-site
-Sumenlerotomasyon - A simple, user-friendly website for showcasing products and services. Includes a homepage, product and service sections, and contact information with social media links. Built with basic HTML and CSS for a minimal, functional web presence.
+Sumenlerotomasyon - A simple, user-friendly website template for showcasing products and services. This project includes a homepage, sections for products and services, and contact information with social media links. Built with basic HTML and CSS, this site offers a straightforward solution for small businesses or personal portfolios looking for a minimal, functional web presence.
