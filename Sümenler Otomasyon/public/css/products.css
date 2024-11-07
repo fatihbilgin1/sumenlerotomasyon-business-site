@@ -1,0 +1,54 @@
+.products{
+    padding: 50px;
+    margin: 50px;
+    color: black;
+}
+ .products h2{
+    font-family: 'Protest Strike', sans-serif;
+    text-align: center;
+    color: gray;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    font-size: 40px;
+}
+.products h1.title
+{
+color: white;
+font-family: 'Protest Strike', sans-serif;
+font-size: 35px;
+}
+.products Ürün1,Ürün2,Ürün3{
+    display: flex;
+}
+.products .productItem{
+margin: 50px;
+padding: 50px;
+background-color:	#00bfff;
+border-radius:10px 30px 20px 20px;
+}   
+.products .productItemtwo{
+    margin: 50px;
+    padding: 50px;
+    background-color:	#00bfff;
+    border-radius:10px 30px 20px 20px;
+}   
+.products .productItemthree{
+    margin: 50px;
+    padding: 50px;
+    background-color:	#00bfff;
+    border-radius:10px 30px 20px 20px;
+}   
+.products .productItemfour{
+    margin: 50px;
+    padding: 50px;
+    background-color:	#00bfff;
+    border-radius:10px 30px 20px 20px;
+}
+.products .productItemfive{
+    margin: 50px;
+    padding: 50px;
+    background-color:	#00bfff;
+    border-radius:10px 30px 20px 20px;
+}
+ 
