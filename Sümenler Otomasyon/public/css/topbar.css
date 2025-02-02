@@ -1,0 +1,62 @@
+.topbar{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    font-family: NeueHaas, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: white;
+}
+img{
+    width: 110px;
+    margin-left:-50px;
+}
+.topbar .wrapper{
+    width: 100%;
+    max-width: 1366px;
+    display: flex;
+}
+.topbar .left{
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.topbar .left a{
+    color: black;
+}
+.topbar .left a:hover{
+    color: red;
+    border-radius: 4px;
+    transition: 0.2s;
+    -ms-transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3); 
+}
+
+#logo:hover{
+    transform: none;
+    color: inherit;
+}
+.topbar .center a.active{
+    color: black;
+}
+.topbar .center{
+    flex: 9;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    justify-content: space-evenly;
+    position: relative;
+}
+.topbar a{
+    text-decoration: none;
+    color: gray;
+}
+.topbar .center a:hover{
+color:black;
+transition: 0.3s;
+cursor:pointer;
+}
+.topbar .left i{
+    font-size: 1.3rem;
+}

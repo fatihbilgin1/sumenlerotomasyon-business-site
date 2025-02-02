@@ -1,0 +1,97 @@
+#contact {
+    background-color: #222;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.contact-form {
+    flex: 1;
+    min-width: 300px;
+}
+
+.contact-form h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 12px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.contact-form textarea {
+    resize: none;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.buttons input {
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.buttons input:hover {
+    background-color: darkorange;
+}
+
+.company-info {
+    flex: 1;
+    min-width: 300px;
+    text-align: center;
+}
+
+.company-info img {
+    width: 180px;
+    margin-bottom: 15px;
+}
+
+.company-info p {
+    margin: 5px 0;
+}
+
+.company-info a {
+    color: white;
+    text-decoration: none;
+}
+
+.company-info .social {
+    margin-top: 15px;
+}
+
+.company-info .social a {
+    color: white;
+    font-size: 24px;
+    margin: 0 8px;
+    transition: 0.3s;
+}
+
+.company-info .social a:hover {
+    color: orange;
+}

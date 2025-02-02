@@ -1,0 +1,26 @@
+#services{
+    padding: 40px;
+    background-color: #f4f4f4;
+}
+#services h2{
+    text-align: center;
+    font-size: 2rem;
+}
+.service-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.service-item {
+    width: 30%;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.service-item:hover{
+    transform: scale(1.1);
+    background-color: #FFA500;
+    color: white;
+}
